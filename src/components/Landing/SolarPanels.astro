@@ -1,0 +1,19 @@
+---
+import PairButtons from "../PairButtons.astro";
+import Section from "../Section.astro";
+---
+
+<Section
+  color="black"
+  title="Solar Panels"
+  subtitle="Schedule a Virtual Consultation"
+>
+  <img
+    slot="background"
+    alt="solar-panels"
+    class="h-full w-full object-cover object-center"
+    src="solar-panels.webp"
+    id="bg-image-solar-panels"
+  />
+  <PairButtons slot="footer" leftLabel="Order Now" rightLabel="Learn More" />
+</Section>

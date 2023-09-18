@@ -1,0 +1,19 @@
+---
+import Section from "../../components/Section.astro";
+import PairButtons from "../PairButtons.astro";
+---
+
+<Section
+  color="black"
+  title="Solar Roof"
+  subtitle="Produce Clean Energy From Your Roof"
+>
+  <img
+    slot="background"
+    alt="Solar Roof"
+    class="h-full w-full object-cover object-center"
+    src="solar-roof.webp"
+    id="bg-image-solar-roof"
+  />
+  <PairButtons slot="footer" leftLabel="Order Now" rightLabel="Learn More" />
+</Section>

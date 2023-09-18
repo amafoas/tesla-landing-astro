@@ -1,0 +1,26 @@
+---
+import Section from "../Section.astro";
+---
+
+<Section
+  color="white"
+  title="Experience Tesla"
+  subtitle="Schedule a Demo Drive Today"
+>
+  <div slot="footer">
+    <a
+      class="text-white border-2 rounded font-medium px-20 py-2
+    border-white bg-white/5 backdrop-blur-sm text-sm inline-block hover:bg-white hover:text-black transition-colors"
+      href="#"
+    >
+      Demo Drive</a
+    >
+  </div>
+  <video
+    slot="background"
+    class="object-cover object-center h-full w-full"
+    autoplay
+    muted
+    loop
+    src="/experience-video.webm"></video>
+</Section>

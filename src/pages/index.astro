@@ -1,0 +1,31 @@
+---
+import Navbar from "../components/Navbar/Navbar.astro";
+import Layout from "../layouts/Layout.astro";
+import Model3 from "../components/Landing/Model3.astro";
+import ModelS from "../components/Landing/ModelS.astro";
+import ModelX from "../components/Landing/ModelX.astro";
+import ModelY from "../components/Landing/ModelY.astro";
+import Experience from "../components/Landing/Experience.astro";
+import SolarPanels from "../components/Landing/SolarPanels.astro";
+import SolarRoof from "../components/Landing/SolarRoof.astro";
+import Powerwall from "../components/Landing/Powerwall.astro";
+import Accessories from "../components/Landing/Accessories.astro";
+---
+
+<Layout title="Tesla">
+	<Navbar />
+
+	<main
+		class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth"
+	>
+		<div class="snap-center"><Experience /></div>
+		<div class="snap-center"><ModelY /></div>
+		<div class="snap-center"><Model3 /></div>
+		<div class="snap-center"><ModelS /></div>
+		<div class="snap-center"><ModelX /></div>
+		<div class="snap-center"><SolarPanels /></div>
+		<div class="snap-center"><SolarRoof /></div>
+		<div class="snap-center"><Powerwall /></div>
+		<div class="snap-center"><Accessories /></div>
+	</main>
+</Layout>

@@ -1,0 +1,15 @@
+---
+import PairButtons from "../PairButtons.astro";
+import Section from "../Section.astro";
+---
+
+<Section color="black" title="Model Y" subtitle="">
+  <img
+    slot="background"
+    alt="model y"
+    class="h-full w-full object-cover object-center"
+    src="model-y.webp"
+    id="bg-image-model-y"
+  />
+  <PairButtons slot="footer" leftLabel="Order Now" rightLabel="Demo Drive" />
+</Section>
